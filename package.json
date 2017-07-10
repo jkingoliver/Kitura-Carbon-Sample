@@ -1,0 +1,20 @@
+{
+  "name": "kitura-carbon-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "engines": {
+    "node": "^5.0.0"
+  },
+  "author": "Jennie Oliveer",
+  "license": "ISC",
+  "dependencies": {
+    "carbon-components": "^7.12.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
