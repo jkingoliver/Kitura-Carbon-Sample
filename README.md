@@ -38,8 +38,9 @@ The application uses the [Configuration package](https://github.com/IBM-Swift/Co
 ### Run
 To build and run the application:
 1. `swift build`
-1. `.build/debug/sample`
 1. `npm install --save carbon-components`
+1. `gulp`
+1. `.build/debug/sample`
 
 
 
