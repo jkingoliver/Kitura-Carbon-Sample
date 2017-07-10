@@ -39,6 +39,7 @@ The application uses the [Configuration package](https://github.com/IBM-Swift/Co
 To build and run the application:
 1. `swift build`
 1. `.build/debug/sample`
+1. `npm install --save carbon-components`
 
 
 
