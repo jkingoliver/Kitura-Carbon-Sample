@@ -1,0 +1,11 @@
+{
+  "appType": "scaffold",
+  "appName": "sample",
+  "web": true,
+  "services": {},
+  "capabilities": {},
+  "config": {
+    "logger": "helium",
+    "port": 8080
+  }
+}
