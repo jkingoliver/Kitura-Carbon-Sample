@@ -1,6 +1,9 @@
 'use strict'; // eslint-disable-line
 
 const gulp = require('gulp');
+const sass = require('gulp-sass');
+const prefix = require('gulp-autoprefixer');
+const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('copyJS', () =>
   gulp
@@ -18,4 +21,23 @@ gulp.task('img', function() {
         .pipe(gulp.dest('public/img/'))
 });
 
-gulp.task('default', ['copyJS', 'img', 'index']);
+gulp.task('styles', () =>
+  gulp
+    .src('client/scss/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(
+      sass({
+        outputStyle: 'compressed',
+        includePaths: ['node_modules'],
+      })
+    )
+    .pipe(
+      prefix({
+        browsers: ['> 1%', 'last 2 versions'],
+      })
+    )
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./public/css'))
+);
+
+gulp.task('default', ['copyJS', 'img', 'index', 'styles']);
