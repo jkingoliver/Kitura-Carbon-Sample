@@ -1,5 +1,7 @@
 [![Platform](https://img.shields.io/badge/platform-swift-lightgrey.svg?style=flat)](https://developer.ibm.com/swift/)
 
+![Carbon Design Card Screenshot](https://github.com/jkingoliver/Kitura-Carbon-Sample/raw/master/docs/Carbon-card.png)
+
 ### Table of Contents
 * [Summary](#summary)
 * [Requirements](#requirements)
