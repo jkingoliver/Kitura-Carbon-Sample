@@ -39,13 +39,10 @@ To use this module, you will need Node.js and Swift 3 installed on your Linux or
 
 You will also need the Yeoman command line utility [yo](https://github.com/yeoman/yo) installed in your global Node.js module directory.  
 To install yo, use: 
-    ```
-    npm install -g yo
-    ```
+    `npm install -g yo`
+    
 To install this generator, use: 
-    ```
-    npm install -g git+https://github.com/IBM-Swift/generator-swiftserver
-    ```
+    `npm install -g git+https://github.com/IBM-Swift/generator-swiftserver`
 
 #### Quick start
 To create a Swift Server project, use: `yo swiftserver`. Using the command line interface, select a project name and directory name. Then select the following options:
@@ -64,10 +61,10 @@ This content is hosted on `/`. For example, if you want to view `public/myfile.h
 
 The [Carbon Component Library](http://www.carbondesignsystem.com/getting-started/developers) provides frontend developers & engineers a collection of reusable HTML and SCSS partials to build websites and user interfaces. Adopting the library enables developers to use consistent markup, styles, and behavior in prototype and production work.
 
-    ```
+  ```
     cd <directory of Swift project created above>
     $ npm install --save carbon-components
-    ```
+  ```
 
 This will create a `node_modules` directory with the Carbon Design library, which contains all components available for your project.
 
