@@ -17,7 +17,7 @@ These are the steps to create this sample:
 2. Install IBM Carbon Design System artifacts using `npm install`
 3. Build out a web page and integrate the Carbon Design components of interest
 
-This sample consistes of a web page with a single card component:
+This sample consists of a web page with a single card component:
 
 ![Carbon Design Card Screenshot](https://github.com/jkingoliver/Kitura-Carbon-Sample/raw/master/docs/Carbon-card.png)
 
